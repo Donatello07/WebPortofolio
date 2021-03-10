@@ -1,11 +1,16 @@
 
 import './App.css';
+import Navigation from 'Nav';
+import TopBanner from 'TopBanner';
+import './css/slick.css';
+import './css/style.css';
 
 function App() {
   return (
-    <div className="App">
-      Test Add Git
-    </div>
+		<div>
+			<Navigation/>
+      <TopBanner/>
+		</div>
   );
 }
 
