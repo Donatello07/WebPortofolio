@@ -1,16 +1,16 @@
-
+import React from 'react';
+import AboutMe from './AboutMe';
 import './App.css';
-import Navigation from 'Nav';
-import TopBanner from 'TopBanner';
-import './css/slick.css';
-import './css/style.css';
+import Header from './Header';
+import Navigation from './Navigation.js';
 
 function App() {
   return (
-		<div>
-			<Navigation/>
-      <TopBanner/>
-		</div>
+    <div>
+      <Navigation/>        
+      <Header/>
+      <AboutMe/>
+    </div>
   );
 }
 

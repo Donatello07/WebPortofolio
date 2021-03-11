@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
+
+/*
+ * Author by FreeHTML5.co
+ * Twitter: https://twitter.com/fh5co
+ * Facebook: https://fb.com/fh5co
+ * URL: https://freehtml5.co
+ */
+/* Fonts */
+@font-face {
+  font-family: 'Calisto-MT';
+  src: url(fonts/Calisto-MT.ttf);
+ }
+
+@font-face {
+  font-family: 'Calisto-MT-Italic';
+  src: url(fonts/Calisto-MT-Italic.ttf); }
+
+@font-face {
+  font-family: 'Calisto-MT-Bold';
+  src: url(fonts/Calisto-MT-Bold.ttf); }
+
+/* Colors */
+/* Universal style */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Calisto-MT"; }
+
+.site-container {
+  width: 1115px;
+  margin: 0 auto; }
+  @media (max-width: 1250px) {
+    .site-container {
+      width: 90%; } }
+
+.universal-h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #222; }
+  @media (max-width: 1250px) {
+    .universal-h2 {
+      font-size: 38px; } }
+  @media (max-width: 668px) {
+    .universal-h2 {
+      font-size: 30px; } }
+
+.universal-h2-bckg {
+  background-image: url("Image/double-line.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom; }
+
+/* Universal style end */
